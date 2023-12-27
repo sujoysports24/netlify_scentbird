@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <link rel="stylesheet" href="./CSS/style.css">
+  <link rel="stylesheet" media = 'screen and (max-width: 768px)' href="./CSS/mobile.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Staatliches&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+  <script src="https://kit.fontawesome.com/85a5fdd30e.js" async></script>
+  <title>Scentbird | Contact</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        form {
+            max-width: 400px;
+            margin: auto;
+            text-align: left; /* Align the form to the left */
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+  
+</head>
+<body>
+  <nav id="main-nav">
+    <div class="container">
+ 	  <a href="/"><img src="img/logo.png" alt="logo" class="logo"></a>
+      <div class = 'social'>
+        <a href="http://facebook.com.br" target = 'blank'><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="http://twitter.com.br" target = 'blank'><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="http://instagram.com.br" target = 'blank'><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="http://youtube.com.br" target = 'blank'><i class="fab fa-youtube fa-2x"></i></a>
+      </div>
+      <ul>
+        <li><a href="/" >Home</a></li>
+        <li><a href="about.html" class="current">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="about">
+    <div class="container">
+      <div class="page-container">
+        <article class="card">
+          <h1 class='l-heading'>Contact Us at Scentbird</h1>
+          <p>Thank you for choosing Scentbird as your trusted platform. We appreciate your interest and value your feedback. Our commitment is to provide you with the best experience, and your inquiries, suggestions, or concerns are essential to helping us achieve that goal.</p>
+		  <h2 class='2-heading'>How to Reach Us</h2>
+		  <h3 class='3-heading'>1. Contact Form</h3>
+		  
+		  
+		    <p>We're here to assist you. Please fill out the form below:</p>
+
+    <form action="submit_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+		  
+		  
+		  
+		  
+          <p>At the heart of Scentbird is a team of dedicated journalists, storytellers, and experts passionate about delivering news that matters. We strive to go beyond the headlines, offering in-depth analysis and diverse perspectives on the issues that shape our world. Our commitment to journalistic excellence is unwavering, and we hold ourselves to the highest standards of integrity.</p>
+		  <h3 class='3-heading'>2. Email</h3>
+           <p>For more detailed or urgent matters, you can reach us directly via email at <a href="mailto: adminstrator@netlify.scentbird.com">netlify.scentbird.com</a> Our dedicated team is ready to assist you promptly.</p>
+		  <h2 class='2-heading'>Feedback and Suggestions</h2>
+           <p>We value your input and strive to continuously improve our services. If you have any suggestions or feedback, please let us know through our various communication channels. Your insights play a crucial role in shaping the future of Scentbird<p>
+		  <p>At Scentbird, we are dedicated to creating a seamless and enjoyable experience for our users. Contact us today, and let us assist you on your journey with Scentbird.</p>
+		  <p>Thank you for being a part of the Scentbird community!</p>
+		  <p>...............................</p>
+		  <b><p>Best regards,</p></b>
+		  <b><p>The Scentbird Team</p></b>
+
+        </article>
+        <aside class="card bg-primary">
+          <h2>Join Our Club</h2>
+          <p>Join our Club' to become an integral part of our vibrant community and stay connected with us.</p>
+          <a href="mailto: adminstrator@netlify.scentbird.com" class='btn btn-dak btn-block'>Join Now</a>
+        </aside>
+      </div>
+    </div>
+  </section>
+  
+  <footer id = 'main-footer' class = 'py-2'>
+    <div class="container footer-container">
+      <div>
+        <img src="img/logo_light.png" alt="logo">
+        <p>Scentbird—Unbiased. In-depth. Empowering. Join us for accurate news, diverse perspectives, and a community committed to truth and understanding.</p>
+      </div>
+      <div>
+        <h3>Email Newsletter</h3>
+        <p>Stay informed and inspired with our newsletter—your daily dose of curated news and insights.</p>
+        <form>
+          <input type="email" placeholder="Email:" required>
+          <input type="submit" value="Subscribe" class = 'btn btn-primary'>
+        </form>
+      </div>
+      <div>
+        <h3>Site Links</h3>
+        <ul class = 'list'>
+          <li><a href="help.html">Help and Support</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Join our Club</h2>
+        <p>Join our Club' to become an integral part of our vibrant community and stay connected with us.</p>
+        <a href="mailto: adminstrator@netlify.scentbird.com" class="btn btn-secondary">Join Now</a>
+      </div>
+      <div>
+        <p>
+          Copyright Scentbird &copy; 2023, All Rights reserved. 
+        </p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
